@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 2 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Design Tracker Logo</title>
+  <desc id="desc">Stacked document mark for the design tracker plugin.</desc>
+  <rect width="128" height="128" rx="20" fill="#1C1917" />
+  <rect x="28" y="34" width="72" height="16" rx="4" fill="#A8A29E" />
+  <rect x="28" y="56" width="72" height="16" rx="4" fill="#D6D3D1" />
+  <rect x="28" y="78" width="48" height="16" rx="4" fill="#F59E0B" />
+</svg>

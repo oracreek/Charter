@@ -1,0 +1,23 @@
+{
+  "name": "design-tracker",
+  "displayName": "Design Tracker",
+  "version": "0.1.0",
+  "description": "Feature story workflow with status tracking, ADRs, and slash commands for plan → build → verify.",
+  "author": {
+    "name": "Oracreek",
+    "email": "plugins@oracreek.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "plugin",
+    "design",
+    "stories",
+    "adr",
+    "workflow",
+    "commands",
+    "rules",
+    "skills"
+  ],
+  "logo": "assets/logo.svg"
+}

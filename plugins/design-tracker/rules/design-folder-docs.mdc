@@ -1,0 +1,19 @@
+---
+description: Use _designs README and WORKFLOW as the source of truth when editing design docs
+globs: _designs/**/*.md
+alwaysApply: false
+---
+
+# Design folder documentation
+
+When editing files under `_designs/`, use the design tracker docs as the authority instead of restating their guidance here.
+
+## Start here
+
+- Read `_designs/README.md` for the design tracker overview, canonical locations, slash-command flow, and agent operating guidance.
+- Read `_designs/WORKFLOW.md` for status definitions, verification requirements, consolidation policy, and agent responsibilities.
+
+## Follow linked sources
+
+- Use `_designs/feature-catalog.md`, relevant files in `_designs/stories/`, `_designs/architecture/`, and `_designs/decisions/`, and templates in `_designs/templates/` as directed by those docs.
+- If guidance appears duplicated or conflicting, preserve the canonical source and update links rather than creating another copy.

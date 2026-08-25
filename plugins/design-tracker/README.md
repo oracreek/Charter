@@ -2,6 +2,8 @@
 
 Cursor plugin for a reusable **feature design tracker**: status-based stories, ADRs, catalog, and `/design-*` slash commands.
 
+This is the product plugin in the [design-tracker](https://github.com/jesgorsuch/design-tracker) repository. Cursor Marketplace listing is planned after the repository is public.
+
 ## Included
 
 | Component | Contents |

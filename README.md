@@ -1,18 +1,25 @@
-# Oracreek Design Tracker
+# Design Tracker
 
-Cursor plugin marketplace for the reusable **design-tracker** workflow (feature stories, ADRs, catalog, `/design-*` commands), plus the upstream starter plugin examples.
+[![CI](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## Plugins
+A Cursor plugin for a reusable **feature design tracker**: status-based stories, architecture decision records (ADRs), a living catalog, and `/design-*` slash commands.
 
-| Plugin | Path | Purpose |
-|--------|------|---------|
-| **design-tracker** | [`plugins/design-tracker`](plugins/design-tracker) | Production workflow: rules, skills, slash commands, `_designs` bootstrap |
-| starter-simple | `plugins/starter-simple` | Minimal Cursor plugin starter |
-| starter-advanced | `plugins/starter-advanced` | Full-featured starter (rules, skills, agents, commands, hooks, MCP) |
+Oracreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
 
-## Quick start (design-tracker)
+## What it does
 
-1. Install locally for iteration:
+Install the plugin, then in any product repo:
+
+1. `/design-bootstrap` — scaffold a `_designs/` folder (stories, decisions, architecture, catalog).
+2. `/design-e2e-feature <topic>` — plan → build → sync in one pass.
+3. `/design-verify-feature` / `/design-audit-catalog` — close the loop so work does not stall as “unverified.”
+
+The plugin ships **process and empty templates**. Each product repo owns its stories, ADRs, and stack-specific verify wording.
+
+## Install (local)
+
+Until the Marketplace listing is live, link the plugin from this clone:
 
 ```powershell
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\plugins\local" | Out-Null
@@ -21,10 +28,16 @@ New-Item -ItemType Junction -Force `
   -Target "$PWD\plugins\design-tracker"
 ```
 
-2. Reload the Cursor window.
-3. In any project: `/design-bootstrap`, then `/design-e2e-feature <topic>`.
+Then **Developer: Reload Window**. Confirm under **Customize** that Design Tracker rules, skills, and commands appear.
 
-See [`plugins/design-tracker/README.md`](plugins/design-tracker/README.md) for the full command map.
+macOS / Linux:
+
+```bash
+mkdir -p ~/.cursor/plugins/local
+ln -s "$PWD/plugins/design-tracker" ~/.cursor/plugins/local/design-tracker
+```
+
+Full command map: [`plugins/design-tracker/README.md`](plugins/design-tracker/README.md).
 
 ## Validate
 
@@ -32,6 +45,14 @@ See [`plugins/design-tracker/README.md`](plugins/design-tracker/README.md) for t
 node scripts/validate-template.mjs
 ```
 
-## Add another plugin
+## Versioning
 
-Follow [`docs/add-a-plugin.md`](docs/add-a-plugin.md).
+`main` is the product. Published versions are git tags (`v0.1.0`, …) that match the plugin manifest. See [RELEASE.md](RELEASE.md).
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Please read the [Code of Conduct](CODE_OF_CONDUCT.md) and [security policy](SECURITY.md).
+
+## License
+
+[MIT](LICENSE)

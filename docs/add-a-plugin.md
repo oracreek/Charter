@@ -1,6 +1,8 @@
 # Add a plugin
 
-Add a new plugin under `plugins/` and register it in `.cursor-plugin/marketplace.json`.
+This repository currently publishes **one** plugin: Design Tracker. Additional plugins can live under `plugins/` and must be registered in `.cursor-plugin/marketplace.json` before they are considered part of the product.
+
+Do not add unmodified Cursor template starters. A new plugin should be an Oracreek product with its own purpose, docs, and license metadata.
 
 ## 1. Create plugin directory
 
@@ -25,8 +27,10 @@ Example manifest:
   "version": "0.1.0",
   "description": "Describe what this plugin does",
   "author": {
-    "name": "Your Org"
+    "name": "Oracreek",
+    "email": "plugins@oracreek.com"
   },
+  "license": "MIT",
   "logo": "assets/logo.svg"
 }
 ```

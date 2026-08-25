@@ -1,0 +1,31 @@
+---
+name: Bug report
+description: Something in Design Tracker does not work as documented
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Do not include secrets, API keys, private screenshots, or personal data.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report does not contain private API keys, secrets, or screenshots with personal data
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Cursor version, OS, and the `/design-*` command or file involved.
+    validations:
+      required: true

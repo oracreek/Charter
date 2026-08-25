@@ -5,24 +5,14 @@
     "email": "plugins@oracreek.com"
   },
   "metadata": {
-    "description": "Oracreek Cursor plugins — design tracker and starters",
+    "description": "Oracreek Design Tracker — feature stories, ADRs, and plan → build → verify commands for Cursor",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "design-tracker",
       "source": "./plugins/design-tracker",
-      "description": "Feature story workflow with status tracking, ADRs, and plan → build → verify slash commands"
-    },
-    {
-      "name": "starter-simple",
-      "source": "./plugins/starter-simple",
-      "description": "Minimal plugin with rules and skills only"
-    },
-    {
-      "name": "starter-advanced",
-      "source": "./plugins/starter-advanced",
-      "description": "Full-featured plugin with rules, skills, agents, commands, hooks, and MCP"
+      "description": "Feature story workflow with status tracking, ADRs, and slash commands for plan → build → verify"
     }
   ]
 }

@@ -1,6 +1,6 @@
-# Design Tracker
+# Oracreek Charter
 
-This directory is the **source of truth** for feature stories, architecture notes, and implementation status. Application code lives elsewhere in the repo; this tracker records what is planned, built, verified, and why.
+This directory is the **source of truth** for architecture, design docs, status, and validation evidence. Application code lives elsewhere in the repo; Charter records what is planned, built, verified, and why.
 
 ## Where to start
 
@@ -40,26 +40,26 @@ Before implementing or changing a feature:
 
 ## Slash commands (Agent chat)
 
-Type `/design-` in Cursor Agent chat (requires the **design-tracker** plugin or equivalent project commands).
+Type `/oracreek-` in Cursor Agent chat (requires the **oracreek-charter** plugin or equivalent project commands).
 
 | Command | Phase | When to use |
 | --------- | ------- | ------------- |
-| `/design-bootstrap` | Setup | Scaffold `_designs/` into a project |
-| `/design-e2e-feature` | Orchestration | **One step:** plan → document → build → sync; stops at **Built - Unverified** unless you say **`verify now`** |
-| `/design-finish-feature` | Orchestration | **Resume** an existing story from pre-flight, implement, sync, or verify |
-| `/design-plan-feature` | Planning | Explore an idea; clarify UX; propose status — **no code** |
-| `/design-new-story` | Planning | Create or extend a story + catalog row from template |
-| `/design-new-adr` | Planning | Draft a decision record before schema/API forks |
-| `/design-start-feature` | Coding | Pre-flight: read story/ADRs, plan scope, ask on conflicts — **no code until confirmed** |
-| `/design-implement-feature` | Coding | Implement to story acceptance criteria; end at **Built - Unverified** |
-| `/design-sync-after-build` | Documentation | Update story, catalog, architecture after code lands |
-| `/design-verify-feature` | Documentation | Run WORKFLOW checklist; only path to mark **Verified** |
-| `/design-review-unverified` | Hygiene | Report on Built - Unverified / In Design / stale Planned |
-| `/design-audit-catalog` | Hygiene | Compare catalog status to routes, UI, and schema |
+| `/oracreek-bootstrap` | Setup | Scaffold `_oracreek/` into a project |
+| `/oracreek-e2e-feature` | Orchestration | **One step:** plan → document → build → sync; stops at **Built - Unverified** unless you say **`verify now`** |
+| `/oracreek-finish-feature` | Orchestration | **Resume** an existing story from pre-flight, implement, sync, or verify |
+| `/oracreek-plan-feature` | Planning | Explore an idea; clarify UX; propose status — **no code** |
+| `/oracreek-new-story` | Planning | Create or extend a story + catalog row from template |
+| `/oracreek-new-adr` | Planning | Draft a decision record before schema/API forks |
+| `/oracreek-start-feature` | Coding | Pre-flight: read story/ADRs, plan scope, ask on conflicts — **no code until confirmed** |
+| `/oracreek-implement-feature` | Coding | Implement to story acceptance criteria; end at **Built - Unverified** |
+| `/oracreek-sync-after-build` | Documentation | Update story, catalog, architecture after code lands |
+| `/oracreek-verify-feature` | Documentation | Run WORKFLOW checklist; only path to mark **Verified** |
+| `/oracreek-review-unverified` | Hygiene | Report on Built - Unverified / In Design / stale Planned |
+| `/oracreek-audit-catalog` | Hygiene | Compare catalog status to routes, UI, and schema |
 
-**Recommended one-step flow:** New feature → `/design-e2e-feature` (reply at each gate) → **`verify now`** when ready. Existing story → `/design-finish-feature`.
+**Recommended one-step flow:** New feature → `/oracreek-e2e-feature` (reply at each gate) → **`verify now`** when ready. Existing story → `/oracreek-finish-feature`.
 
-Granular flow: `/design-plan-feature` → `/design-start-feature` → `/design-implement-feature` → `/design-sync-after-build` → `/design-verify-feature`.
+Granular flow: `/oracreek-plan-feature` → `/oracreek-start-feature` → `/oracreek-implement-feature` → `/oracreek-sync-after-build` → `/oracreek-verify-feature`.
 
 ## Human workflow (short)
 

@@ -1,5 +1,5 @@
 ---
-name: design-audit-catalog
+name: oracreek-audit-catalog
 description: Compare feature-catalog status to routes, UI, and schema. Report discrepancies.
 ---
 
@@ -9,11 +9,11 @@ Scope: $ARGUMENTS (optional module or feature filter; default: full catalog)
 
 ## Required reads
 
-- `_designs/feature-catalog.md`
-- `_designs/stories/` (linked from catalog)
+- `_oracreek/feature-catalog.md`
+- `_oracreek/stories/` (linked from catalog)
 - Project entrypoints for routes/API, schema, and UI (discover from repo layout / `AGENTS.md`)
-- `_designs/WORKFLOW.md`
-- Design tracker rules (plugin or project)
+- `_oracreek/WORKFLOW.md`
+- Oracreek Charter rules (plugin or project)
 
 ## Steps
 
@@ -23,7 +23,7 @@ Scope: $ARGUMENTS (optional module or feature filter; default: full catalog)
    - UI exists where story claims user-facing surfaces
 2. Flag discrepancies (e.g. **Verified** without evidence, **Planned** with substantial code, missing routes claimed as built).
 3. Note stale code evidence links in stories.
-4. Recommend: status correction, story update, or `/design-verify-feature` / `/design-sync-after-build`.
+4. Recommend: status correction, story update, or `/oracreek-verify-feature` / `/oracreek-sync-after-build`.
 
 ## Stop / ask rules
 
@@ -37,7 +37,7 @@ Return:
 
 - Discrepancy list (catalog ID, claimed status, actual finding, suggested fix)
 - Summary count by severity
-- Suggested command for each fix (`/design-sync-after-build`, `/design-verify-feature`, `/design-new-story`)
+- Suggested command for each fix (`/oracreek-sync-after-build`, `/oracreek-verify-feature`, `/oracreek-new-story`)
 
 ## Do not
 

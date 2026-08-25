@@ -1,23 +1,23 @@
 ---
-description: Design tracker — read _designs before feature work; keep docs and code in sync; ask before building against architecture
+description: Oracreek Charter — read _oracreek before feature work; keep docs and code in sync; ask before building against architecture
 alwaysApply: true
 ---
 
-# Design tracker
+# Oracreek Charter
 
-When this project has a `_designs/` directory (or the user is adopting the design tracker), follow this workflow before implementing or changing a **feature**, **schema**, **public route**, or **user-facing UX flow**:
+When this project has a `_oracreek/` directory (or the user is adopting the Oracreek Charter), follow this workflow before implementing or changing a **feature**, **schema**, **public route**, or **user-facing UX flow**:
 
-1. Read `_designs/README.md` and the relevant story under `_designs/stories/`.
-2. Check linked files in `_designs/architecture/` and `_designs/decisions/`.
-3. Use status definitions in `_designs/WORKFLOW.md`. Do not mark **Verified** from schema or file existence alone.
+1. Read `_oracreek/README.md` and the relevant story under `_oracreek/stories/`.
+2. Check linked files in `_oracreek/architecture/` and `_oracreek/decisions/`.
+3. Use status definitions in `_oracreek/WORKFLOW.md`. Do not mark **Verified** from schema or file existence alone.
 
-If `_designs/` is missing and the user wants this workflow, suggest `/design-bootstrap` (or the design-bootstrap skill) before creating ad-hoc docs.
+If `_oracreek/` is missing and the user wants this workflow, suggest `/oracreek-bootstrap` (or the oracreek-bootstrap skill) before creating ad-hoc docs.
 
 ## When to stop and ask
 
 Pause and ask the user for clarification if the request:
 
-- Conflicts with documented architecture or an accepted ADR in `_designs/decisions/`
+- Conflicts with documented architecture or an accepted ADR in `_oracreek/decisions/`
 - Adds avoidable complexity relative to the documented future state
 - Weakens security (new public endpoints without scoping, auth bypasses, secrets in client code)
 - Diverges from project best practices documented in `AGENTS.md` or project rules
@@ -27,9 +27,9 @@ Prefer a simpler approach that matches the **future-state** docs when the user h
 ## After implementation
 
 - Update the story: status, code evidence, verification checklist, open questions.
-- Update `_designs/feature-catalog.md` if catalog status changed.
+- Update `_oracreek/feature-catalog.md` if catalog status changed.
 - Add or update a **decision record** for significant architecture forks.
-- Archive superseded docs to `_designs/archive/` — do not leave competing sources of truth.
+- Archive superseded docs to `_oracreek/archive/` — do not leave competing sources of truth.
 
 ## Verification
 
@@ -39,10 +39,10 @@ Prefer a simpler approach that matches the **future-state** docs when the user h
 
 | What | Where |
 |------|--------|
-| Feature index | `_designs/feature-catalog.md` |
-| Stories | `_designs/stories/<status-folder>/*.md` — grouped by current status |
-| Architecture | `_designs/architecture/*.md` |
-| Decisions | `_designs/decisions/*.md` |
-| Templates | `_designs/templates/` |
+| Feature index | `_oracreek/feature-catalog.md` |
+| Stories | `_oracreek/stories/<status-folder>/*.md` — grouped by current status |
+| Architecture | `_oracreek/architecture/*.md` |
+| Decisions | `_oracreek/decisions/*.md` |
+| Templates | `_oracreek/templates/` |
 
 **When a story's status changes, move the file into the matching status folder (`git mv`) in the same change and fix all links to it** (catalog, cross-links, and relative links within the moved file).

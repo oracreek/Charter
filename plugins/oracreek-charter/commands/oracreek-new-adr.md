@@ -1,5 +1,5 @@
 ---
-name: design-new-adr
+name: oracreek-new-adr
 description: Draft an architecture decision record before schema, API, or other durable forks.
 ---
 
@@ -9,18 +9,18 @@ Decision topic: $ARGUMENTS
 
 ## Required reads
 
-- `_designs/templates/decision-record.md`
-- Existing files in `_designs/decisions/` (use next sequential number)
-- Related `_designs/stories/` and `_designs/architecture/` files
-- Design tracker rules (plugin or project)
+- `_oracreek/templates/decision-record.md`
+- Existing files in `_oracreek/decisions/` (use next sequential number)
+- Related `_oracreek/stories/` and `_oracreek/architecture/` files
+- Oracreek Charter rules (plugin or project)
 
 ## Steps
 
-1. Determine the next ADR number (e.g. `004-`) from existing files in `_designs/decisions/`.
-2. Draft using `_designs/templates/decision-record.md`:
+1. Determine the next ADR number (e.g. `004-`) from existing files in `_oracreek/decisions/`.
+2. Draft using `_oracreek/templates/decision-record.md`:
    - Context, decision, alternatives considered, consequences, follow-up
    - Link affected stories and architecture notes
-3. Save as `_designs/decisions/NNN-short-title.md` with status **Proposed** or **Accepted**.
+3. Save as `_oracreek/decisions/NNN-short-title.md` with status **Proposed** or **Accepted**.
 4. Update linked stories to reference the new ADR (if stories exist).
 
 ## When an ADR is required

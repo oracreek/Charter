@@ -1,4 +1,4 @@
-# Design Tracker — Workflow & Governance
+# Oracreek Charter — Workflow & Governance
 
 ## Status definitions
 
@@ -49,15 +49,15 @@ Stories are grouped into subfolders by their **current** status:
 
 | Status | Folder |
 |--------|--------|
-| Proposed | `_designs/stories/proposed/` |
-| Planned | `_designs/stories/planned/` |
-| In Design | `_designs/stories/in-design/` |
-| In Build | `_designs/stories/in-build/` |
-| Built - Unverified | `_designs/stories/built-unverified/` |
-| Verified | `_designs/stories/verified/` |
-| Deprecated | `_designs/stories/deprecated/` |
+| Proposed | `_oracreek/stories/proposed/` |
+| Planned | `_oracreek/stories/planned/` |
+| In Design | `_oracreek/stories/in-design/` |
+| In Build | `_oracreek/stories/in-build/` |
+| Built - Unverified | `_oracreek/stories/built-unverified/` |
+| Verified | `_oracreek/stories/verified/` |
+| Deprecated | `_oracreek/stories/deprecated/` |
 
-A story's canonical path is `_designs/stories/<status-folder>/<feature-id>.md`. Only folders with at least one story currently exist — do not pre-create empty ones.
+A story's canonical path is `_oracreek/stories/<status-folder>/<feature-id>.md`. Only folders with at least one story currently exist — do not pre-create empty ones.
 
 **Whenever a story's Status field changes, move the file (`git mv`) into the matching folder in the same change**, and update every link that points to it:
 
@@ -91,10 +91,10 @@ A story's canonical path is `_designs/stories/<status-folder>/<feature-id>.md`. 
 
 ## Consolidation policy
 
-- **Canonical catalog:** [_designs/feature-catalog.md](feature-catalog.md)
-- **Canonical stories:** `_designs/stories/<status-folder>/<feature-id>.md` — see [Story file location](#story-file-location)
+- **Canonical catalog:** [_oracreek/feature-catalog.md](feature-catalog.md)
+- **Canonical stories:** `_oracreek/stories/<status-folder>/<feature-id>.md` — see [Story file location](#story-file-location)
 - When merging provisional docs: correct statuses against code, link to stories, move old file to `archive/` with a header noting supersession date.
-- Root `README.md` / `AGENTS.md` should not contradict verified features; add a pointer to `_designs/` when updating deployment docs.
+- Root `README.md` / `AGENTS.md` should not contradict verified features; add a pointer to `_oracreek/` when updating deployment docs.
 
 ---
 
@@ -102,7 +102,7 @@ A story's canonical path is `_designs/stories/<status-folder>/<feature-id>.md`. 
 
 Agents working in this repo must:
 
-1. Read [_designs/README.md](README.md) and the relevant story before feature work.
+1. Read [_oracreek/README.md](README.md) and the relevant story before feature work.
 2. Ask clarifying questions when the request is not ideal for future-state architecture, security, or maintainability.
 3. Update stories and catalog when implementation changes status or behavior.
 4. Never mark **Verified** without completing the verification checklist from code inspection.

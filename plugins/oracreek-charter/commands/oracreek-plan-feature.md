@@ -1,5 +1,5 @@
 ---
-name: design-plan-feature
+name: oracreek-plan-feature
 description: Explore a feature idea; clarify UX and status; no code. Use when planning before build.
 ---
 
@@ -9,12 +9,12 @@ Feature or topic: $ARGUMENTS
 
 ## Required reads
 
-- `_designs/README.md`
-- `_designs/feature-catalog.md`
-- `_designs/WORKFLOW.md`
-- Matching story under `_designs/stories/` (if it exists)
-- Linked `_designs/architecture/` and `_designs/decisions/` files
-- Design tracker rules (plugin or project)
+- `_oracreek/README.md`
+- `_oracreek/feature-catalog.md`
+- `_oracreek/WORKFLOW.md`
+- Matching story under `_oracreek/stories/` (if it exists)
+- Linked `_oracreek/architecture/` and `_oracreek/decisions/` files
+- Oracreek Charter rules (plugin or project)
 
 ## Steps
 
@@ -28,7 +28,7 @@ Feature or topic: $ARGUMENTS
 
 Pause and ask clarifying questions before recommending build if the idea:
 
-- Conflicts with an accepted ADR in `_designs/decisions/`
+- Conflicts with an accepted ADR in `_oracreek/decisions/`
 - Adds avoidable complexity relative to documented future state
 - Weakens security (unscoped public endpoints, auth gaps)
 - Diverges from project practices in `AGENTS.md` or project rules
@@ -39,11 +39,11 @@ Return:
 
 - Feature summary and recommended status
 - Open questions (numbered)
-- Whether `_designs/stories/` or a new ADR is needed
-- Suggested next command: `/design-new-story`, `/design-new-adr`, or `/design-start-feature`
+- Whether `_oracreek/stories/` or a new ADR is needed
+- Suggested next command: `/oracreek-new-story`, `/oracreek-new-adr`, or `/oracreek-start-feature`
 
 ## Do not
 
 - Do not write or modify application code.
 - Do not mark any feature **Verified**.
-- Do not create competing docs outside `_designs/`.
+- Do not create competing docs outside `_oracreek/`.

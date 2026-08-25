@@ -1,5 +1,5 @@
 ---
-name: design-start-feature
+name: oracreek-start-feature
 description: Pre-flight a feature from story and ADRs; plan scope; ask on conflicts. No code until confirmed.
 ---
 
@@ -9,12 +9,12 @@ Feature: $ARGUMENTS
 
 ## Required reads
 
-- `_designs/README.md`
-- `_designs/feature-catalog.md`
-- `_designs/WORKFLOW.md`
-- Matching story under `_designs/stories/` (resolve from catalog or $ARGUMENTS — stories are grouped in subfolders by status)
-- Linked `_designs/architecture/` and `_designs/decisions/` files from that story
-- Design tracker rules (plugin or project)
+- `_oracreek/README.md`
+- `_oracreek/feature-catalog.md`
+- `_oracreek/WORKFLOW.md`
+- Matching story under `_oracreek/stories/` (resolve from catalog or $ARGUMENTS — stories are grouped in subfolders by status)
+- Linked `_oracreek/architecture/` and `_oracreek/decisions/` files from that story
+- Oracreek Charter rules (plugin or project)
 
 ## Steps
 
@@ -23,13 +23,13 @@ Feature: $ARGUMENTS
 3. List proposed **implementation scope**: application files, schema/migrations, client assets as applicable.
 4. State whether a **new ADR** is needed before coding.
 5. If the user's intent conflicts with accepted ADRs or architecture, **stop and ask** — do not proceed to implementation.
-6. Propose setting story status to **In Build**, including moving the file into `_designs/stories/in-build/` and fixing its links (apply only if I confirm in this turn — see `_designs/WORKFLOW.md` "Story file location").
+6. Propose setting story status to **In Build**, including moving the file into `_oracreek/stories/in-build/` and fixing its links (apply only if I confirm in this turn — see `_oracreek/WORKFLOW.md` "Story file location").
 
 ## Stop / ask rules
 
 Pause and ask before any code if:
 
-- Request conflicts with `_designs/decisions/`
+- Request conflicts with `_oracreek/decisions/`
 - New public routes would expose data without proper auth or scoping
 - Proposed schema or data model adds complexity that documented simpler approaches already cover
 
@@ -40,7 +40,7 @@ Return:
 - Pre-flight summary and implementation plan
 - Affected files list
 - Open questions requiring my answer
-- Explicit: "Ready for `/design-implement-feature` after confirmation"
+- Explicit: "Ready for `/oracreek-implement-feature` after confirmation"
 
 ## Do not
 

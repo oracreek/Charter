@@ -1,5 +1,5 @@
 ---
-name: design-finish-feature
+name: oracreek-finish-feature
 description: Resume an existing story from pre-flight, implement, sync, or verify. Skip plan/docs by default.
 ---
 
@@ -22,21 +22,21 @@ Do **not** advance until the user replies, unless they said **`run all phases wi
 
 - Use **AskQuestion** for discrete choices when scope or entry phase is ambiguous.
 - **Default:** after Phase 5, stop at **Built - Unverified**, list unchecked verification checklist items, and remind the user to reply **`verify now`** when ready. Only run Phase 6 if the user explicitly says **`verify now`** (or equivalent).
-- Never mark **Verified** from schema evidence alone. Only Phase 6 may promote to **Verified** (see `/design-verify-feature`).
-- On every story status change, **`git mv`** the file into the matching `_designs/stories/<status-folder>/` and fix catalog + cross-links per `_designs/WORKFLOW.md` "Story file location".
+- Never mark **Verified** from schema evidence alone. Only Phase 6 may promote to **Verified** (see `/oracreek-verify-feature`).
+- On every story status change, **`git mv`** the file into the matching `_oracreek/stories/<status-folder>/` and fix catalog + cross-links per `_oracreek/WORKFLOW.md` "Story file location".
 
 ## Required reads (once at start)
 
-- `_designs/README.md`
-- `_designs/WORKFLOW.md`
-- `_designs/feature-catalog.md`
-- Design tracker rules (plugin or project)
+- `_oracreek/README.md`
+- `_oracreek/WORKFLOW.md`
+- `_oracreek/feature-catalog.md`
+- Oracreek Charter rules (plugin or project)
 - Resolve matching story from $ARGUMENTS (catalog ID, slug, or name — stories live in status subfolders)
-- Linked `_designs/architecture/` and `_designs/decisions/` files from that story
+- Linked `_oracreek/architecture/` and `_oracreek/decisions/` files from that story
 
 ## Entry phase selection
 
-1. Resolve story from catalog. **Error** if no story exists — suggest `/design-e2e-feature` instead.
+1. Resolve story from catalog. **Error** if no story exists — suggest `/oracreek-e2e-feature` instead.
 2. Read current story **Status** and choose starting phase:
 
 | Status | Default start | Notes |
@@ -52,31 +52,31 @@ Do **not** advance until the user replies, unless they said **`run all phases wi
 
 ## Phase 1 — Plan (only when needed)
 
-Follow `/design-plan-feature` when status is **Proposed** or user requests replan.
+Follow `/oracreek-plan-feature` when status is **Proposed** or user requests replan.
 
 **Gate:** User approves status and scope before Phase 2 or Phase 3.
 
 ## Phase 2 — Document (only when needed)
 
-Follow `/design-new-story` and `/design-new-adr` if needed. Skip when story and catalog are already complete unless user asks to extend docs.
+Follow `/oracreek-new-story` and `/oracreek-new-adr` if needed. Skip when story and catalog are already complete unless user asks to extend docs.
 
 **Gate:** User approves story path and catalog row.
 
 ## Phase 3 — Pre-flight
 
-Follow `/design-start-feature`.
+Follow `/oracreek-start-feature`.
 
 **Gate:** User confirms implementation plan. Move story to `in-build/` if not already there.
 
 ## Phase 4 — Implement
 
-Follow `/design-implement-feature`.
+Follow `/oracreek-implement-feature`.
 
 End at **Built - Unverified** with story in `built-unverified/` unless Phase 5 handles sync.
 
 ## Phase 5 — Sync
 
-Follow `/design-sync-after-build`.
+Follow `/oracreek-sync-after-build`.
 
 **Gate (default):** Stop at **Built - Unverified**. List verification checklist items still open. Tell user to reply **`verify now`** to run Phase 6.
 
@@ -84,7 +84,7 @@ Follow `/design-sync-after-build`.
 
 Run only when the user explicitly says **`verify now`**.
 
-Follow `/design-verify-feature`. Move story to `verified/` only if the full checklist passes.
+Follow `/oracreek-verify-feature`. Move story to `verified/` only if the full checklist passes.
 
 ## Final outputs
 

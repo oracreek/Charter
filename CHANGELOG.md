@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Design Tracker are documented here.
+All notable changes to Oracreek Charter are documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project follows [Semantic Versioning](https://semver.org/).
@@ -15,7 +15,8 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Marketplace manifest now lists only Design Tracker (Cursor template starters removed from the product surface)
+- Renamed the product to **Oracreek Charter** (`oracreek-charter`, `/oracreek-*`, `_oracreek/`)
+- Marketplace manifest now lists only Oracreek Charter (Cursor template starters removed from the product surface)
 
 ### Removed
 
@@ -25,4 +26,4 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- Initial Design Tracker plugin: rules, skills, `/design-*` commands, and `_designs/` bootstrap templates
+- Initial Oracreek Charter plugin: rules, skills, `/oracreek-*` commands, and `_oracreek/` bootstrap templates

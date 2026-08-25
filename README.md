@@ -1,9 +1,9 @@
-# Design Tracker
+# Oracreek Charter
 
 [![CI](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A Cursor plugin for a reusable **feature design tracker**: status-based stories, architecture decision records (ADRs), a living catalog, and `/design-*` slash commands.
+A Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation.
 
 Oracreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
 
@@ -11,9 +11,9 @@ Oracreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cu
 
 Install the plugin, then in any product repo:
 
-1. `/design-bootstrap` — scaffold a `_designs/` folder (stories, decisions, architecture, catalog).
-2. `/design-e2e-feature <topic>` — plan → build → sync in one pass.
-3. `/design-verify-feature` / `/design-audit-catalog` — close the loop so work does not stall as “unverified.”
+1. `/oracreek-bootstrap` — scaffold `_oracreek/` (stories, decisions, architecture, catalog).
+2. `/oracreek-e2e-feature <topic>` — plan → build → sync in one pass.
+3. `/oracreek-verify-feature` / `/oracreek-audit-catalog` — close the loop so work does not stall as “unverified.”
 
 The plugin ships **process and empty templates**. Each product repo owns its stories, ADRs, and stack-specific verify wording.
 
@@ -24,20 +24,22 @@ Until the Marketplace listing is live, link the plugin from this clone:
 ```powershell
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\plugins\local" | Out-Null
 New-Item -ItemType Junction -Force `
-  -Path "$env:USERPROFILE\.cursor\plugins\local\design-tracker" `
-  -Target "$PWD\plugins\design-tracker"
+  -Path "$env:USERPROFILE\.cursor\plugins\local\oracreek-charter" `
+  -Target "$PWD\plugins\oracreek-charter"
 ```
 
-Then **Developer: Reload Window**. Confirm under **Customize** that Design Tracker rules, skills, and commands appear.
+Then **Developer: Reload Window**. Confirm under **Customize** that Oracreek Charter rules, skills, and commands appear.
+
+If you previously linked `design-tracker`, remove that junction and create the one above.
 
 macOS / Linux:
 
 ```bash
 mkdir -p ~/.cursor/plugins/local
-ln -s "$PWD/plugins/design-tracker" ~/.cursor/plugins/local/design-tracker
+ln -s "$PWD/plugins/oracreek-charter" ~/.cursor/plugins/local/oracreek-charter
 ```
 
-Full command map: [`plugins/design-tracker/README.md`](plugins/design-tracker/README.md).
+Full command map: [`plugins/oracreek-charter/README.md`](plugins/oracreek-charter/README.md).
 
 ## Validate
 
@@ -47,7 +49,7 @@ node scripts/validate-template.mjs
 
 ## Versioning
 
-`main` is the product. Published versions are git tags (`v0.1.0`, …) that match the plugin manifest. See [RELEASE.md](RELEASE.md).
+`main` is the product. Published versions are git tags (`v0.1.0`, …) that match the plugin manifest. See [RELEASE.md](RELEASE.md). The GitHub repository may still be named `design-tracker` until it is renamed on GitHub.
 
 ## Contributing
 

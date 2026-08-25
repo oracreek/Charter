@@ -8,7 +8,7 @@ This project uses [semantic versioning](https://semver.org/) and [GitHub Flow](h
 
 Keep these in sync for a release:
 
-- `plugins/design-tracker/.cursor-plugin/plugin.json` → `version`
+- `plugins/oracreek-charter/.cursor-plugin/plugin.json` → `version`
 - `.cursor-plugin/marketplace.json` → `metadata.version`
 - Git tag `vX.Y.Z` (leading `v`)
 - [CHANGELOG.md](CHANGELOG.md)

@@ -8,6 +8,6 @@ Index of durable features. Each row links to a story under `stories/<status-fold
 
 ## How to use
 
-1. Add a catalog row when creating a story (`/design-new-story`).
+1. Add a catalog row when creating a story (`/oracreek-new-story`).
 2. Keep **Status** and the story link path in sync when the story moves between status folders.
 3. Prefer one story per durable feature area; do not duplicate rows for the same capability.

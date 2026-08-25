@@ -1,8 +1,8 @@
 {
-  "name": "design-tracker",
-  "displayName": "Design Tracker",
+  "name": "oracreek-charter",
+  "displayName": "Oracreek Charter",
   "version": "0.1.0",
-  "description": "Feature story workflow with status tracking, ADRs, and slash commands for plan → build → verify.",
+  "description": "Agent governance for architecture, design docs, status, and testing/validation.",
   "author": {
     "name": "Oracreek",
     "email": "plugins@oracreek.com"
@@ -11,7 +11,10 @@
   "keywords": [
     "cursor",
     "plugin",
+    "governance",
+    "architecture",
     "design",
+    "validation",
     "stories",
     "adr",
     "workflow",

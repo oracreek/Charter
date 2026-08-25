@@ -1,18 +1,18 @@
 {
-  "name": "oracreek-design-tracker",
+  "name": "oracreek-charter",
   "owner": {
     "name": "Oracreek",
     "email": "plugins@oracreek.com"
   },
   "metadata": {
-    "description": "Oracreek Design Tracker — feature stories, ADRs, and plan → build → verify commands for Cursor",
+    "description": "Oracreek Charter — agent governance for architecture, design, status, and validation",
     "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "design-tracker",
-      "source": "./plugins/design-tracker",
-      "description": "Feature story workflow with status tracking, ADRs, and slash commands for plan → build → verify"
+      "name": "oracreek-charter",
+      "source": "./plugins/oracreek-charter",
+      "description": "Agent governance for architecture, design docs, status, and testing/validation"
     }
   ]
 }

@@ -15,12 +15,14 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+- GitHub repository renamed to [jesgorsuch/Oracreek-Charter](https://github.com/jesgorsuch/Oracreek-Charter)
 - Renamed the product to **Oracreek Charter** (`oracreek-charter`, `/oracreek-*`, `_oracreek/`)
 - Marketplace manifest now lists only Oracreek Charter (Cursor template starters removed from the product surface)
 
 ### Removed
 
 - `starter-simple` and `starter-advanced` template plugins
+- Internal `PUBLICATION_CHECKLIST.md` (not a user-facing doc)
 
 ## 0.1.0
 

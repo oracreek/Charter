@@ -1,6 +1,6 @@
 # Oracreek Charter
 
-[![CI](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/design-tracker/actions/workflows/ci.yml)
+[![CI](https://github.com/jesgorsuch/Oracreek-Charter/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/Oracreek-Charter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation.
@@ -30,8 +30,6 @@ New-Item -ItemType Junction -Force `
 
 Then **Developer: Reload Window**. Confirm under **Customize** that Oracreek Charter rules, skills, and commands appear.
 
-If you previously linked `design-tracker`, remove that junction and create the one above.
-
 macOS / Linux:
 
 ```bash
@@ -49,7 +47,7 @@ node scripts/validate-template.mjs
 
 ## Versioning
 
-`main` is the product. Published versions are git tags (`v0.1.0`, …) that match the plugin manifest. See [RELEASE.md](RELEASE.md). The GitHub repository may still be named `design-tracker` until it is renamed on GitHub.
+`main` is the product. Published versions are git tags (`v0.1.0`, …) that match the plugin manifest. See [RELEASE.md](RELEASE.md).
 
 ## Contributing
 

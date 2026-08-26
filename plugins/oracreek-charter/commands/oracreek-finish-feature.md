@@ -30,7 +30,7 @@ Do **not** advance until the user replies, unless they said **`run all phases wi
 - `_oracreek/README.md`
 - `_oracreek/WORKFLOW.md`
 - `_oracreek/feature-catalog.md`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 - Resolve matching story from $ARGUMENTS (catalog ID, slug, or name — stories live in status subfolders)
 - Linked `_oracreek/architecture/` and `_oracreek/decisions/` files from that story
 

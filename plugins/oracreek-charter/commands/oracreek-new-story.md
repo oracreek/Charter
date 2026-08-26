@@ -12,7 +12,7 @@ Feature description: $ARGUMENTS
 - `_oracreek/templates/feature-story.md`
 - `_oracreek/feature-catalog.md`
 - `_oracreek/WORKFLOW.md`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

@@ -2,13 +2,13 @@
 
 Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation, with `/oracreek-*` slash commands.
 
-This is the product plugin in the [jesgorsuch/Oracreek-Charter](https://github.com/jesgorsuch/Oracreek-Charter) repository. Cursor Marketplace listing is planned after the repository is public.
+This is the product plugin in the [jesgorsuch/OraCreek-Charter](https://github.com/jesgorsuch/OraCreek-Charter) repository. Cursor Marketplace listing is planned after the repository is public.
 
 ## Included
 
 | Component | Contents |
 |-----------|----------|
-| `rules/` | Always-on Oracreek Charter + `_oracreek/**` folder guidance |
+| `rules/` | Always-on OraCreek Charter + `_oracreek/**` folder guidance |
 | `commands/` | Full lifecycle: bootstrap, plan, e2e, implement, sync, verify, hygiene |
 | `skills/oracreek-charter/` | Workflow reference for agents |
 | `skills/oracreek-bootstrap/` | Scaffold `_oracreek/` into a project (templates included) |
@@ -31,7 +31,7 @@ New-Item -ItemType Junction -Force -Path "$env:USERPROFILE\.cursor\plugins\local
 ```
 
 2. **Developer: Reload Window** in Cursor.
-3. Confirm under **Customize** that rules/skills/commands from **Oracreek Charter** appear.
+3. Confirm under **Customize** that rules/skills/commands from **OraCreek Charter** appear.
 4. In a target project, run `/oracreek-bootstrap`, then `/oracreek-plan-feature` or `/oracreek-e2e-feature`.
 
 ## What stays project-local

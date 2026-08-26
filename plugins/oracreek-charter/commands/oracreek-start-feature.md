@@ -14,7 +14,7 @@ Feature: $ARGUMENTS
 - `_oracreek/WORKFLOW.md`
 - Matching story under `_oracreek/stories/` (resolve from catalog or $ARGUMENTS — stories are grouped in subfolders by status)
 - Linked `_oracreek/architecture/` and `_oracreek/decisions/` files from that story
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

@@ -12,7 +12,7 @@ Scope: $ARGUMENTS (optional — filter by module or feature; default: entire cat
 - `_oracreek/feature-catalog.md`
 - `_oracreek/WORKFLOW.md`
 - All `_oracreek/stories/` with status **Built - Unverified**, **In Design**, or stale **Planned**
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

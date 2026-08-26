@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve Oracreek Charter. This is a **public product repository**: `main` should always be presentable.
+Thanks for helping improve OraCreek Charter. This is a **public product repository**: `main` should always be presentable.
 
 ## Workflow
 
@@ -15,7 +15,7 @@ Do not maintain a long-lived `published` branch. Released versions are **git tag
 
 ## What belongs in this repo
 
-- The Oracreek Charter plugin under `plugins/oracreek-charter/`
+- The OraCreek Charter plugin under `plugins/oracreek-charter/`
 - Marketplace manifest listing **only** that plugin
 - Docs, license, and CI for a public GitHub project
 

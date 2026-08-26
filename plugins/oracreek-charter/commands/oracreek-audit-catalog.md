@@ -13,7 +13,7 @@ Scope: $ARGUMENTS (optional module or feature filter; default: full catalog)
 - `_oracreek/stories/` (linked from catalog)
 - Project entrypoints for routes/API, schema, and UI (discover from repo layout / `AGENTS.md`)
 - `_oracreek/WORKFLOW.md`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

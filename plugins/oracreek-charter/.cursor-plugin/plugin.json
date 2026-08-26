@@ -1,10 +1,10 @@
 {
   "name": "oracreek-charter",
-  "displayName": "Oracreek Charter",
+  "displayName": "OraCreek Charter",
   "version": "0.1.0",
   "description": "Agent governance for architecture, design docs, status, and testing/validation.",
   "author": {
-    "name": "Oracreek",
+    "name": "OraCreek",
     "email": "plugins@oracreek.com"
   },
   "license": "MIT",

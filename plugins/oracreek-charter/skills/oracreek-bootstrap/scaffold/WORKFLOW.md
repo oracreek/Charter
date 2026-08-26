@@ -1,4 +1,4 @@
-# Oracreek Charter — Workflow & Governance
+# OraCreek Charter — Workflow & Governance
 
 ## Status definitions
 

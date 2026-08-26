@@ -1,11 +1,11 @@
 {
   "name": "oracreek-charter",
   "owner": {
-    "name": "Oracreek",
+    "name": "OraCreek",
     "email": "plugins@oracreek.com"
   },
   "metadata": {
-    "description": "Oracreek Charter — agent governance for architecture, design, status, and validation",
+    "description": "OraCreek Charter — agent governance for architecture, design, status, and validation",
     "version": "0.1.0"
   },
   "plugins": [

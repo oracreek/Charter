@@ -12,7 +12,7 @@ Decision topic: $ARGUMENTS
 - `_oracreek/templates/decision-record.md`
 - Existing files in `_oracreek/decisions/` (use next sequential number)
 - Related `_oracreek/stories/` and `_oracreek/architecture/` files
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

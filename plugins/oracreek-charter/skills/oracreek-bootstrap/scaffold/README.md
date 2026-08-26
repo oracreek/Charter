@@ -1,4 +1,4 @@
-# Oracreek Charter
+# OraCreek Charter
 
 This directory is the **source of truth** for architecture, design docs, status, and validation evidence. Application code lives elsewhere in the repo; Charter records what is planned, built, verified, and why.
 

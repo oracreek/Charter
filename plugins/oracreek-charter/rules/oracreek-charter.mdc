@@ -1,11 +1,11 @@
 ---
-description: Oracreek Charter — read _oracreek before feature work; keep docs and code in sync; ask before building against architecture
+description: OraCreek Charter — read _oracreek before feature work; keep docs and code in sync; ask before building against architecture
 alwaysApply: true
 ---
 
-# Oracreek Charter
+# OraCreek Charter
 
-When this project has a `_oracreek/` directory (or the user is adopting the Oracreek Charter), follow this workflow before implementing or changing a **feature**, **schema**, **public route**, or **user-facing UX flow**:
+When this project has a `_oracreek/` directory (or the user is adopting the OraCreek Charter), follow this workflow before implementing or changing a **feature**, **schema**, **public route**, or **user-facing UX flow**:
 
 1. Read `_oracreek/README.md` and the relevant story under `_oracreek/stories/`.
 2. Check linked files in `_oracreek/architecture/` and `_oracreek/decisions/`.

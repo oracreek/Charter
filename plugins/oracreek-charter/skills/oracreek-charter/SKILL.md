@@ -1,12 +1,12 @@
 ---
 name: oracreek-charter
 description: >-
-  Run the Oracreek Charter workflow (architecture, design docs, status, and
+  Run the OraCreek Charter workflow (architecture, design docs, status, and
   verification). Use when the project has _oracreek/, or when the user mentions
   feature stories, catalog status, Built - Unverified, or /oracreek-* commands.
 ---
 
-# Oracreek Charter
+# OraCreek Charter
 
 ## When to use
 

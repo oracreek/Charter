@@ -12,7 +12,7 @@ Feature: $ARGUMENTS
 - `_oracreek/README.md`
 - Matching story under `_oracreek/stories/` (stories are grouped in subfolders by status)
 - Linked `_oracreek/architecture/` and `_oracreek/decisions/`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 - Relevant application source, schema, and UI entry points for this project
 
 ## Steps

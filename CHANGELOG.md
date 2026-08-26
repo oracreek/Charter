@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to Oracreek Charter are documented here.
+All notable changes to OraCreek Charter are documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project follows [Semantic Versioning](https://semver.org/).
@@ -15,9 +15,10 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- GitHub repository renamed to [jesgorsuch/Oracreek-Charter](https://github.com/jesgorsuch/Oracreek-Charter)
-- Renamed the product to **Oracreek Charter** (`oracreek-charter`, `/oracreek-*`, `_oracreek/`)
-- Marketplace manifest now lists only Oracreek Charter (Cursor template starters removed from the product surface)
+- Display name spelled **OraCreek** when written as one word
+- GitHub repository renamed to [jesgorsuch/OraCreek-Charter](https://github.com/jesgorsuch/OraCreek-Charter)
+- Renamed the product to **OraCreek Charter** (`oracreek-charter`, `/oracreek-*`, `_oracreek/`)
+- Marketplace manifest now lists only OraCreek Charter (Cursor template starters removed from the product surface)
 
 ### Removed
 
@@ -28,4 +29,4 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- Initial Oracreek Charter plugin: rules, skills, `/oracreek-*` commands, and `_oracreek/` bootstrap templates
+- Initial OraCreek Charter plugin: rules, skills, `/oracreek-*` commands, and `_oracreek/` bootstrap templates

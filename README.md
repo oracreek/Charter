@@ -1,11 +1,11 @@
-# Oracreek Charter
+# OraCreek Charter
 
-[![CI](https://github.com/jesgorsuch/Oracreek-Charter/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/Oracreek-Charter/actions/workflows/ci.yml)
+[![CI](https://github.com/jesgorsuch/OraCreek-Charter/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/OraCreek-Charter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation.
 
-Oracreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
+OraCreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
 
 ## What it does
 
@@ -28,7 +28,7 @@ New-Item -ItemType Junction -Force `
   -Target "$PWD\plugins\oracreek-charter"
 ```
 
-Then **Developer: Reload Window**. Confirm under **Customize** that Oracreek Charter rules, skills, and commands appear.
+Then **Developer: Reload Window**. Confirm under **Customize** that OraCreek Charter rules, skills, and commands appear.
 
 macOS / Linux:
 

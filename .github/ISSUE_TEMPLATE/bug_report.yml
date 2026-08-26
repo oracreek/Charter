@@ -1,6 +1,6 @@
 ---
 name: Bug report
-description: Something in Oracreek Charter does not work as documented
+description: Something in OraCreek Charter does not work as documented
 title: "[bug] "
 labels: ["bug"]
 body:

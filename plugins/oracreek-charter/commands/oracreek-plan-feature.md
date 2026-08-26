@@ -14,7 +14,7 @@ Feature or topic: $ARGUMENTS
 - `_oracreek/WORKFLOW.md`
 - Matching story under `_oracreek/stories/` (if it exists)
 - Linked `_oracreek/architecture/` and `_oracreek/decisions/` files
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 
 ## Steps
 

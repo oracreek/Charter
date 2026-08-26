@@ -3,7 +3,7 @@ name: oracreek-bootstrap
 description: Scaffold _oracreek/ (README, WORKFLOW, catalog, templates) into the current project.
 ---
 
-# Bootstrap Oracreek Charter
+# Bootstrap OraCreek Charter
 
 Project notes: $ARGUMENTS
 

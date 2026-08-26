@@ -2,12 +2,12 @@
 name: oracreek-bootstrap
 description: >-
   Scaffold a project-local _oracreek/ tree (README, WORKFLOW, catalog, templates)
-  for the oracreek-charter workflow. Use when adopting Oracreek Charter in a new or
+  for the oracreek-charter workflow. Use when adopting OraCreek Charter in a new or
   existing repo, or when the user runs /oracreek-bootstrap.
 disable-model-invocation: true
 ---
 
-# Oracreek Charter bootstrap
+# OraCreek Charter bootstrap
 
 ## Instructions
 

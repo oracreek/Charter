@@ -12,7 +12,7 @@ Feature: $ARGUMENTS
 - `_oracreek/WORKFLOW.md` (verification checklist, including "Story file location")
 - Matching story under `_oracreek/stories/` (resolve via the catalog link — stories are grouped in subfolders by status)
 - `_oracreek/feature-catalog.md`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 - Relevant application routes, handlers, UI, schema, and permission checks for this project
 
 ## Steps

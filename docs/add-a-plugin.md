@@ -1,8 +1,8 @@
 # Add a plugin
 
-This repository currently publishes **one** plugin: Oracreek Charter. Additional plugins can live under `plugins/` and must be registered in `.cursor-plugin/marketplace.json` before they are considered part of the product.
+This repository currently publishes **one** plugin: OraCreek Charter. Additional plugins can live under `plugins/` and must be registered in `.cursor-plugin/marketplace.json` before they are considered part of the product.
 
-Do not add unmodified Cursor template starters. A new plugin should be an Oracreek product with its own purpose, docs, and license metadata.
+Do not add unmodified Cursor template starters. A new plugin should be an OraCreek product with its own purpose, docs, and license metadata.
 
 ## 1. Create plugin directory
 
@@ -27,7 +27,7 @@ Example manifest:
   "version": "0.1.0",
   "description": "Describe what this plugin does",
   "author": {
-    "name": "Oracreek",
+    "name": "OraCreek",
     "email": "plugins@oracreek.com"
   },
   "license": "MIT",

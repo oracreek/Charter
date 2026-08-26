@@ -13,7 +13,7 @@ Feature: $ARGUMENTS
 - Matching story under `_oracreek/stories/` (resolve via the catalog link — stories are grouped in subfolders by status)
 - `_oracreek/feature-catalog.md`
 - Linked `_oracreek/architecture/` and `_oracreek/decisions/`
-- Oracreek Charter rules (plugin or project)
+- OraCreek Charter rules (plugin or project)
 - Relevant code paths changed (verify evidence links are accurate)
 
 ## Steps

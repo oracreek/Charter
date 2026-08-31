@@ -1,0 +1,15 @@
+---
+description: Public product-repo workflow for OraCreek Charter
+alwaysApply: true
+---
+
+# Public repo workflow
+
+This repository is the public product for **OraCreek Charter**. Treat `main` as always presentable.
+
+- Use short-lived branches and pull requests. Do not create a long-lived `published` or `release` branch unless we must patch an old major version.
+- Published versions are git tags (`vX.Y.Z`) that match `plugins/oracreek-charter/.cursor-plugin/plugin.json` and `.cursor-plugin/marketplace.json` metadata.version.
+- OraCreek Charter is the only marketplace plugin. Do not re-add Cursor template starters (`starter-simple`, `starter-advanced`) to `marketplace.json`.
+- Do not change GitHub visibility or submit to the Cursor Marketplace unless the user explicitly asks.
+- Never commit secrets, `.env` files, local machine paths, personal notes, or editor org IDs.
+- Keep README, license, and examples sanitized. Collaboration happens in PRs; merge to `main` only when the commit is a reasonable release candidate.

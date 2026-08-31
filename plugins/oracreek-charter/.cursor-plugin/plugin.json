@@ -1,0 +1,26 @@
+{
+  "name": "oracreek-charter",
+  "displayName": "OraCreek Charter",
+  "version": "0.1.0",
+  "description": "Agent governance for architecture, design docs, status, and testing/validation.",
+  "author": {
+    "name": "OraCreek",
+    "email": "plugins@oracreek.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cursor",
+    "plugin",
+    "governance",
+    "architecture",
+    "design",
+    "validation",
+    "stories",
+    "adr",
+    "workflow",
+    "commands",
+    "rules",
+    "skills"
+  ],
+  "logo": "assets/logo.svg"
+}

@@ -1,0 +1,19 @@
+---
+description: Use _oracreek README and WORKFLOW as the source of truth when editing Charter docs
+globs: _oracreek/**/*.md
+alwaysApply: false
+---
+
+# Charter folder documentation
+
+When editing files under `_oracreek/`, use the OraCreek Charter docs as the authority instead of restating their guidance here.
+
+## Start here
+
+- Read `_oracreek/README.md` for the OraCreek Charter overview, canonical locations, slash-command flow, and agent operating guidance.
+- Read `_oracreek/WORKFLOW.md` for status definitions, verification requirements, consolidation policy, and agent responsibilities.
+
+## Follow linked sources
+
+- Use `_oracreek/feature-catalog.md`, relevant files in `_oracreek/stories/`, `_oracreek/architecture/`, and `_oracreek/decisions/`, and templates in `_oracreek/templates/` as directed by those docs.
+- If guidance appears duplicated or conflicting, preserve the canonical source and update links rather than creating another copy.

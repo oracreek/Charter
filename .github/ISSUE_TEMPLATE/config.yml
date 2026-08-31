@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Security report
-    url: https://github.com/jesgorsuch/OraCreek-Charter/security/advisories/new
+    url: https://github.com/oracreek/Charter/security/advisories/new
     about: Please do not file public issues for vulnerabilities.

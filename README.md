@@ -1,11 +1,11 @@
 # OraCreek Charter
 
-[![CI](https://github.com/jesgorsuch/OraCreek-Charter/actions/workflows/ci.yml/badge.svg)](https://github.com/jesgorsuch/OraCreek-Charter/actions/workflows/ci.yml)
+[![CI](https://github.com/oracreek/Charter/actions/workflows/ci.yml/badge.svg)](https://github.com/oracreek/Charter/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation.
 
-OraCreek project, maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
+OraCreek project, published at [oracreek/Charter](https://github.com/oracreek/Charter), maintained by [@jesgorsuch](https://github.com/jesgorsuch). Cursor Marketplace listing is planned after this repository is public and reviewed.
 
 ## What it does
 

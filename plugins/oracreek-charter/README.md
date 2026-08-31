@@ -2,7 +2,7 @@
 
 Cursor plugin for **agent governance**: architecture, design docs, status, and testing/validation, with `/oracreek-*` slash commands.
 
-This is the product plugin in the [jesgorsuch/OraCreek-Charter](https://github.com/jesgorsuch/OraCreek-Charter) repository. Cursor Marketplace listing is planned after the repository is public.
+This is the product plugin in the [oracreek/Charter](https://github.com/oracreek/Charter) repository. Cursor Marketplace listing is planned after the repository is public.
 
 ## Included
 

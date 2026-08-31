@@ -16,7 +16,7 @@ and this project follows [Semantic Versioning](https://semver.org/).
 ### Changed
 
 - Display name spelled **OraCreek** when written as one word
-- GitHub repository renamed to [jesgorsuch/OraCreek-Charter](https://github.com/jesgorsuch/OraCreek-Charter)
+- GitHub repository moved to [oracreek/Charter](https://github.com/oracreek/Charter)
 - Renamed the product to **OraCreek Charter** (`oracreek-charter`, `/oracreek-*`, `_oracreek/`)
 - Marketplace manifest now lists only OraCreek Charter (Cursor template starters removed from the product surface)
 
